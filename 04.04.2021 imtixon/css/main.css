@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 
+.title {}
+
+.text {} */
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.container {
+   
+    max-width: 1250px;
+    margin: 0 auto;
+
+}
+
+.header{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-icon{
+    max-width: 500px;
+    display: flex;
+}
+.header-saved{
+    font-family: Cotham Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    color: #1D1D1D;
+
+}
+.header-text{
+    font-family: Cotham Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: #1D1D1D;
+    margin-left: 12px;
+    margin-top: 5px;
+}
+.header-btn{
+    display: flex;
+     align-items: center;
+}
+.header-button{
+    align-items: center;
+    font-family: Cotham Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #C1C1C1;
+    border: none;
+    outline: none;
+    margin-right: 30px;
+    background-color: transparent;
+}
+.header-open-info{
+    align-items: center;
+    font-family: Cotham Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: right;
+    color: #1D1D1D;
+    margin-right: 30px;
+
+}
+.header-span a{
+    font-family: Cotham Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: right;
+    color: #1D1D1D;
+    cursor: pointer;
+
+}
+.header-span a:hover{
+    
+    color: #c0c0c0;
+
+}
+/* navbar */
+
+.navbar{
+    display:flex;
+margin: 40px 0;
+}
+.ul-link{
+    margin-right: 24px;
+    font-family: Cotham Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: #C1C1C1;
+
+}
+
+.ul-link:hover{
+    color: black;
+}
+
+/* section-wrapper */
+.wrapper-ctn
+{
+    display: flex;
+}
+
+.clipi{
+    width: 240px;
+    height: 265px;
+    background-color: #F5F5F5;
+    position: relative;
+    border-radius: 10px;
+}
+.clipi img{
+    position: absolute;
+    top: 100px;
+    right: 80px;
+
+}
+.clipi-title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1D1D1D;
+    margin: 22px 0;
+    }
+.clipi-text{
+    max-width: 250px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #8E8E8E;
+}
+.section-clipi{
+    margin-right: 19px;
+}
+
+
+.wrapper-products p{
+    font-family: Cotham Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: #1D1D1D;
+    margin-bottom: 20px;
+}
+/* section inspiration  */
+
+.section-react{
+    text-align: center;
+}
+
+.react-title{
+    
+font-family: Cotham Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 30px;
+text-align: center;
+color: #1D1D1D;
+margin: 20px 0;
+}
+
+.react-text{
+    font-family: Cotham Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #8E8E8E;
+    margin-bottom: 55px;
+}
+
+.react-title-h3{
+    font-family: Cotham Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FD4300;
+    margin-bottom: 217px;
+
+}
+
+/* 404img */
+
+.img-404{
+    margin-top: 124px;
+}
+
+/* form */
+
+.section-form{
+    margin-top: 75px;
+    margin-bottom: 261px;
+}
+.form-input{
+    padding: 25px;
+    margin-bottom: 20px;
+    width: 891px;
+    background: #F2F2F2;
+    outline: none;
+    border: none;
+    font-family: Cotham Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    color: #000000;
+
+}
+.input-form{
+    font-family: Cotham Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FD4300;
+    outline: none;
+border: none;
+background-color: transparent;
+cursor: pointer;
+}
+
+
+
+/* friends-ctn */
+
+.friends-ctn
+{
+    display: flex;
+}
+.friends-clipi{
+    width: 600px;
+    height: 250px;
+    background-color: #F5F5F5;
+    padding: 70px 224px;
+    margin-right: 21px;
+    }
+
+.friends-title{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+color: #1D1D1D;
+margin-bottom: 9px;
+
+}
+.friends-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #8E8E8E;
+    max-width: 430px;
+    margin-bottom: 30px;
+}
+.friends-text-a{
+    font-family: Cotham Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 20px;
+color: #FD4300;
+}
+
+.friends-link{
+    margin-top: 15px;
+    margin-bottom: 60px
+}
